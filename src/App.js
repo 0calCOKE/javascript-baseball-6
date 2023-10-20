@@ -1,16 +1,13 @@
-// 라이브러리 불러오기
 import { Console } from "@woowacourse/mission-utils";
-import GameLogic from './GameLogic'
+const GameLogic = require('./GameLogic.js')
 
-class App extends GameLogic {
-  constructor() {
-    this.initialization();
-  }
-
-  async play() {
-  }
+class App {
+constructor () {
+  this.game = new GameLogic();
 }
 
-const App = new App;
+  async play() {
+    }
+}
 
 export default App;
