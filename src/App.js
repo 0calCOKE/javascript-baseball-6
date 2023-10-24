@@ -1,6 +1,4 @@
-import { MissionUtils } from "@woowacourse/mission-utils";
-
-class App extends GameLogic {
+class App {
   async play() {}
 }
 
